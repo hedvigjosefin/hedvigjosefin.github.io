@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Josefin Ström portfolio</title>
+<!-- 
+Magazee Template 
+http://www.templatemo.com/tm-514-magazee
+-->
+  <!-- load CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">    <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">                                        <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="../css/templatemo-style.css">                                     <!-- Templatemo style -->
+
+  <script>
+    var renderPage = true;
+
+    if(navigator.userAgent.indexOf('MSIE')!==-1
+      || navigator.appVersion.indexOf('Trident/') > 0){
+        /* Microsoft Internet Explorer detected in. */
+        alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+        renderPage = false;
+    }
+  </script>
+
+</head>
+
+<body>
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+  <div class="container">
+
+
+      <!-- VIT RÖD -->
+      <section class="row tm-section tm-col-md-reverse tm-mb-30">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <div class="tm-flex-center p-5">
+                  <div class="tm-md-flex-center">
+                      <h1 class="tm-text-color-primary tm-site-name">Josefin Ström</h1>
+                      <p>Hi! My name is Josefin Ström. I am a master's student at KTH, Stockholm. Currently working towards a MSc in Interactive Media Technology. My main interests are visualization, UI design and Game design. </p>
+
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+              <div class="tm-flex-center p-5 tm-bg-color-primary">
+                  <div class="tm-max-w-400 tm-flex-center tm-flex-col">
+                      <img src="../img/image-04.jpg" alt="Image" class="rounded-circle mb-4" height="160px" width="160px">
+                      <a href="https://www.linkedin.com/in/josefin-str%C3%B6m-2891b4173/" class="btn btn-primary">LinkedIn</a>
+                      <a href="https://github.com/hedvigjosefin" class="btn btn-primary">GitHub</a>
+                      <a href="mailto:josefinstrom@outlook.com" class="btn btn-primary">Email me</a>
+
+                  </div>
+              </div>
+          </div>
+      </section> 
+
+      <section class="navbar">
+          <div class="nav-div tm-flex-col">
+              <a href="../index.html" class="btn btn-secondary " >Projects</a>
+              <a href="../pages/photography.html" class="btn btn-secondary">Photography</a>
+              <a href="#" class="btn btn-secondary btn-secondary-current">Digital Design</a>
+          </div>
+
+      </section>
+
+      <!-- PROJECTS -->
+      <section>
+        <div class="gallery-row">
+            <div class="gallery-column">
+              <img src="../img/galleryPhoto/DSC_0059.JPG">
+              <img src="../img/galleryPhoto/DSC_0138.JPG">
+              <img src="../img/galleryPhoto/DSC_0183.JPG">
+            </div>
+            <div class="gallery-column">
+              <img src="../img/galleryPhoto/DSC_0102.JPG">
+              <img src="../img/galleryPhoto/DSC_0501.JPG">
+              
+            </div>
+            <div class="gallery-column">
+              <img src="../img/galleryPhoto/DSC_0383.JPG">
+              <img src="../img/galleryPhoto/DSC_0144.JPG">
+            </div>
+            <div class="gallery-column">
+              <img src="../img/galleryPhoto/DSC_0147.JPG">
+              <img src="../img/galleryPhoto/DSC_0307.JPG">
+            </div>
+          </div>
+      </section>
+      <!-- Footer -->
+      <div class="row">
+          <div class="col-lg-12">
+              <p class="text-center small tm-copyright-text mb-0">Copyright &copy; <span class="tm-current-year">2020</span> Josefin Ström | Designed by Template Mo</p>
+          </div>
+      </div>
+  </div>
+<!-- load JS -->
+<script src="../js/jquery-3.2.1.slim.min.js"></script>         <!-- https://jquery.com/ -->
+<script>
+
+  /* DOM is ready
+  ------------------------------------------------*/
+  $(function(){
+
+    if(renderPage) {
+      $('body').addClass('loaded');
+    }
+
+    $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+  });
+
+</script>
+
+</body>
+</html>
